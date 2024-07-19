@@ -1,0 +1,28 @@
+/* src/pages/RegisterPage.css */
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+.ant-form-item-label {
+    margin-bottom: 0;
+}
+
+.ant-form-item-control-input {
+    margin-top: 0;
+}
+
+.ant-form-item {
+    margin-bottom: 16px;
+}
+
+.ant-btn-primary {
+    width: 100%;
+}
+
+.ant-btn-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
