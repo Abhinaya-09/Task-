@@ -1,0 +1,92 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('bg.avif') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0; /* Fallback color */
+    font-family: Arial, sans-serif;
+    min-height: 100vh; /* Ensures the body takes up at least the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* General container styling */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Adding a slight background color to make text readable */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+.btn-primary, .btn-warning, .btn-danger {
+    border-radius: 4px;
+}
+
+/* Note item styling */
+.note-item {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.note-item h4 {
+    margin-top: 0;
+}
+
+.note-item p {
+    margin-bottom: 10px;
+}
+
+/* Modal styling */
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    padding: 20px;
+}
+
+.modal-title {
+    font-size: 1.25rem;
+}
+
+/* Logout button styling */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
